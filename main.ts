@@ -4,8 +4,7 @@ namespace SpriteKind {
     export const Bush = SpriteKind.create()
 }
 scene.onOverlapTile(SpriteKind.Player, assets.tile`doorClosedEast`, function (sprite, location) {
-    game.splash("Level Completed")
-    tiles.setTilemap(lvl2)
+    levelSwitch()
 })
 sprites.onCreated(SpriteKind.Bush, function (sprite) {
     dedBush = sprites.create(img`
@@ -66,7 +65,7 @@ sprites.onCreated(SpriteKind.Trash, function (sprite) {
         ........cfff........
         ....................
         ....................
-        `, SpriteKind.Projectile)
+    `, SpriteKind.Projectile)
     trash.setPosition(randint(0, 190), randint(0, 190))
 })
 scene.onOverlapTile(SpriteKind.Player, assets.tile`dedTree`, function (sprite, location) {
@@ -75,6 +74,15 @@ scene.onOverlapTile(SpriteKind.Player, assets.tile`dedTree`, function (sprite, l
         game.splash("Tree Restored Successfully!")
     }
 })
+function levelSwitch () {
+    if (currentLevel == 1) {
+        tiles.setCurrentTilemap(lvl1)
+        currentLevel += 1
+    } else if (currentLevel == 2) {
+        tiles.setCurrentTilemap(lvl2)
+        currentLevel += 1
+    }
+}
 sprites.onOverlap(SpriteKind.Player, SpriteKind.Projectile, function (mainPlayer, trash) {
     if (controller.A.isPressed()) {
         info.changeScoreBy(1)
@@ -83,9 +91,13 @@ sprites.onOverlap(SpriteKind.Player, SpriteKind.Projectile, function (mainPlayer
 })
 let dedBush: Sprite = null
 let trash: Sprite = null
+let lvl2: tiles.TileMapData = null
+let lvl1: tiles.TileMapData = null
+let currentLevel = 0
 let lvl0 = null
-let lvl1 = tilemap`level4`
-let lvl2 = tilemap`level0`
+currentLevel = 1
+lvl1 = tilemap`level4`
+lvl2 = tilemap`level0`
 info.setScore(0)
 let mainPlayer = sprites.create(img`
     . . . . . . f f f f . . . . . . 
@@ -130,26 +142,22 @@ for (let i = 0; i <= 30; i++) {
 	
 }
 let trash1 = sprites.create(img`
-    ....................
-    ....................
-    ....................
-    ....................
-    ....................
-    ....................
-    ....................
-    ....................
-    ....................
-    ....................
-    ....................
-    ....................
-    ....................
-    ....................
-    ....................
-    ....................
-    ....................
-    ....................
-    ....................
-    ....................
+    . . . . . . . . . . . . . . . . 
+    . . . . . . . . . . . . . . . . 
+    . . . . . 3 3 . . . . . . . . . 
+    . . . . 3 3 . 3 3 . . . . . . . 
+    . . . . 3 . . . 3 . . . . . . . 
+    . . . . 3 3 3 3 3 . . . . . . . 
+    . . . 3 3 3 3 3 3 3 3 . . . . . 
+    . . 3 . 3 3 3 3 3 3 3 3 . . . . 
+    . . . 3 3 3 3 3 3 3 3 3 . . . . 
+    . . . 3 3 3 3 3 3 3 3 3 . . . . 
+    . . . . 3 3 3 3 3 3 3 . . . . . 
+    . . . . 3 3 3 3 3 3 3 . . . . . 
+    . . . . . 3 3 3 . . . . . . . . 
+    . . . . . . . . . . . . . . . . 
+    . . . . . . . . . . . . . . . . 
+    . . . . . . . . . . . . . . . . 
     `, SpriteKind.Trash)
 trash = sprites.create(img`
     ....................
@@ -350,5 +358,5 @@ let trash9 = sprites.create(img`
     ....................
     `, SpriteKind.Trash)
 controller.moveSprite(mainPlayer)
-tiles.setCurrentTilemap(tilemap`level4`)
+tiles.setCurrentTilemap(lvl1)
 scene.cameraFollowSprite(mainPlayer)
