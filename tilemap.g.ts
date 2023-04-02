@@ -1,4 +1,257 @@
 // Auto-generated code. Do not edit.
+namespace myImages {
+
+    helpers._registerFactory("image", function(name: string) {
+        switch(helpers.stringTrim(name)) {
+            case "myTiles.transparency16":return img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`;
+            case "myTiles.tile1":
+            case "Water":return img`
+8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 
+8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 
+8 8 8 6 6 6 8 8 8 6 6 6 6 8 8 8 
+6 6 8 8 8 6 6 6 6 6 6 8 8 8 8 6 
+6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 
+9 9 6 6 6 6 6 9 9 9 9 6 6 6 9 9 
+6 6 6 6 9 9 9 6 6 6 9 9 9 9 9 9 
+9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 
+9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 
+9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 
+9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 
+9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 
+9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 
+9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 
+9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 
+9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 
+`;
+            case "myTiles.tile2":
+            case "Water0":return img`
+9 9 9 9 9 8 8 8 8 8 8 8 8 8 8 8 
+9 9 9 9 8 8 9 8 8 8 8 8 8 8 8 8 
+9 9 9 9 6 9 8 8 8 6 6 6 6 8 8 8 
+9 9 9 8 9 6 6 6 6 6 6 8 8 8 8 6 
+9 9 9 6 9 9 6 6 6 6 6 6 6 6 6 6 
+9 9 9 9 9 9 6 9 9 9 9 6 6 6 9 9 
+9 9 9 9 9 9 9 6 6 6 9 9 9 9 9 9 
+9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 
+9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 
+9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 
+9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 
+9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 
+9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 
+9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 
+9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 
+9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 
+`;
+            case "myTiles.tile3":
+            case "Water1":return img`
+8 8 8 8 8 8 8 8 8 8 8 8 8 9 9 9 
+8 8 8 8 8 8 8 8 8 8 8 8 9 8 8 9 
+8 8 8 6 6 6 8 8 8 6 6 6 6 8 9 9 
+6 6 8 8 8 6 6 6 6 6 6 8 8 9 9 9 
+6 6 6 6 6 6 6 6 6 6 6 6 9 9 9 9 
+9 9 6 6 6 6 6 9 9 9 9 6 6 9 9 9 
+6 6 6 6 9 9 9 6 6 6 9 9 9 9 9 9 
+9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 
+9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 
+9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 
+9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 
+9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 
+9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 
+9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 
+9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 
+9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 
+`;
+            case "myTiles.tile4":
+            case "Weed":return img`
+d d d . . d d b d . 8 8 d d d b 
+b d . 8 8 . d d d . 8 8 . d b b 
+d d . 8 7 8 . d . 8 7 8 . d d d 
+d b . 8 7 6 8 . 8 8 7 8 . . . d 
+d d . 8 6 7 8 . 8 7 7 8 . 8 8 . 
+. . . 8 8 7 8 8 8 7 7 8 . 8 6 8 
+8 8 8 8 8 7 6 8 6 7 6 8 8 8 8 6 
+6 8 8 8 8 7 7 8 7 7 8 8 6 7 8 6 
+8 8 8 8 8 7 7 8 7 6 8 7 7 6 8 8 
+7 6 8 8 8 6 7 6 7 6 6 7 6 8 8 7 
+8 8 8 7 6 6 7 6 7 6 7 7 8 8 7 7 
+8 6 8 7 7 6 7 8 7 6 7 6 8 7 7 8 
+8 6 6 8 7 6 7 8 6 6 7 8 6 7 8 8 
+8 6 6 8 7 8 7 8 6 6 8 8 6 6 8 6 
+8 8 8 8 6 8 6 8 6 6 8 8 6 6 8 6 
+8 8 8 8 6 8 6 6 6 6 8 8 6 6 8 6 
+`;
+            case "myTiles.tile5":
+            case "myTile":return img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`;
+            case "myTiles.tile6":
+            case "myTile0":return img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`;
+            case "myTiles.tile7":
+            case "doorClosedEast":return img`
+a c c c c c c c c c c c c c c c 
+c d d d d b d d d d b c d d b b 
+c d d d d b d d d d b c d d b b 
+a b b b b c b b b b b c d d b b 
+f f f f f f f f f f f c d d b b 
+c c c c c c c c c c c c d d b b 
+f f f f f f f f f f f c d d b b 
+f f f f f c c c c c c c d d b b 
+c c c c c f f f f f f c d d b b 
+f f f f f f f f f f f c d d b b 
+c c c c c c c c c c c c d d b b 
+f f f f f f f f f f f c d d b b 
+a b b b b c b b b b b c d d b b 
+c d d d d b d d d d b c d d b b 
+c d d d d b d d d d b c d d b b 
+a c c c c c c c c c c c c c c c 
+`;
+            case "myTiles.tile8":
+            case "myTile1":return img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . 8 8 . . . 
+. . . . . . . . . . 8 6 6 8 . . 
+. . . . . . . . . 8 8 6 6 8 8 . 
+. . . . . . . . . 8 6 6 6 6 8 . 
+. . . . . . . . 8 6 6 6 6 6 6 8 
+. . . . . . 8 8 6 6 6 6 6 6 6 6 
+. . . . . 8 6 6 6 6 6 6 6 6 6 6 
+. . . . . 8 8 6 6 6 6 6 6 6 6 6 
+. . . . . 8 6 6 6 6 6 6 6 6 6 6 
+. . . . 8 6 6 8 8 6 6 6 6 6 8 8 
+. . . . 8 8 8 8 6 6 8 8 8 6 6 8 
+. . . . . 8 6 8 6 8 8 6 8 8 6 8 
+. . . . 8 6 6 8 8 8 6 6 8 8 8 8 
+. . . . 8 6 8 8 8 8 6 8 8 8 8 8 
+. . . . 8 8 8 6 6 8 8 8 8 8 8 6 
+`;
+            case "myTiles.tile10":
+            case "dedTree":return img`
+e . . . . . . . . . . . e e e e 
+e e . . . . . . . . . e e e e e 
+e e e e e . . . . . e e e e e . 
+e e e e e e . . . . e e e . . . 
+. e e e e e . . . . e e e . . . 
+. . . . e e e . . e e e . . . . 
+. . . . e e e e e e e e . . . . 
+. . . . . e e e e e e . . . . . 
+. . . . . . e e e e e e . . . . 
+. . . . . . e e . . . . . . . . 
+. . . . . . . e e e . . . . . . 
+. . . . . . . e e e e . . . . . 
+. . . . . . e e e e e . . . . . 
+. . . . e e e e e e e e . . . . 
+. . . e e e e e e e e e e . . . 
+. . . e e e e e e e e e e e . . 
+`;
+            case "myTiles.tile9":
+            case "daTree":return img`
+7 7 7 7 . . . c c . . . . 7 7 7 
+7 7 7 . c c c 6 5 c 6 6 . 7 7 7 
+7 7 7 . c 6 c 5 5 c 7 6 . 7 7 7 
+7 7 . 6 c c 7 5 5 7 c 6 6 . 7 7 
+7 . c c 7 7 7 7 7 5 7 7 c 6 . 7 
+. 6 6 6 c 6 7 7 7 7 6 c c 6 6 . 
+c 7 7 7 6 c 7 c 6 7 6 7 7 7 7 6 
+c c c 6 6 6 c 6 6 6 6 7 7 6 6 6 
+. c c 7 6 6 6 6 6 7 7 7 7 c 6 . 
+. c 7 7 6 6 7 6 6 7 7 6 7 7 c . 
+. c c c c 7 7 6 f 7 7 c c c c . 
+. . . . c 7 c f f c 7 c . . . . 
+7 7 7 7 . 6 f e e e c . 7 7 7 7 
+7 7 7 7 . e e e e e e . 7 7 7 7 
+7 7 7 . e e . e e . e e . 7 7 7 
+7 7 7 . . . . e e . . . . 7 7 7 
+`;
+            case "myTiles.tile11":
+            case "daTree0":return img`
+6 6 6 6 . . . c c . . . . 6 6 6 
+6 6 6 . c c c 6 5 c 6 6 . 6 6 6 
+6 6 6 . c 6 c 5 5 c 7 6 . 6 6 6 
+6 6 . 6 c c 7 5 5 7 c 6 6 . 6 6 
+6 . c c 7 7 7 7 7 5 7 7 c 6 . 6 
+. 6 6 6 c 6 7 7 7 7 6 c c 6 6 . 
+c 7 7 7 6 c 7 c 6 7 6 7 7 7 7 6 
+c c c 6 6 6 c 6 6 6 6 7 7 6 6 6 
+. c c 7 6 6 6 6 6 7 7 7 7 c 6 . 
+. c 7 7 6 6 7 6 6 7 7 6 7 7 c . 
+. c c c c 7 7 6 f 7 7 c c c c . 
+. . . . c 7 c f f c 7 c . . . . 
+6 6 6 6 . 6 f e e e c . 6 6 6 6 
+6 6 6 6 . e e e e e e . 6 6 6 6 
+6 6 6 . e e . e e . e e . 6 6 6 
+6 6 6 . . . . e e . . . . 6 6 6 
+`;
+        }
+        return null;
+    })
+
+    helpers._registerFactory("animation", function(name: string) {
+        switch(helpers.stringTrim(name)) {
+
+        }
+        return null;
+    })
+
+    helpers._registerFactory("song", function(name: string) {
+        switch(helpers.stringTrim(name)) {
+
+        }
+        return null;
+    })
+
+}
+// Auto-generated code. Do not edit.
+
+// Auto-generated code. Do not edit.
 namespace myTiles {
     //% fixedInstance jres blockIdentity=images._tile
     export const transparency16 = image.ofBuffer(hex``);
@@ -254,35 +507,54 @@ namespace myTiles {
 . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . 
 `, [myTiles.transparency16], TileScale.Sixteen);
+            case "mainMenu":
+            case "mainMenu1":return tiles.createTilemap(hex`1000100000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000`, img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`, [myTiles.transparency16,sprites.builtin.forestTiles0], TileScale.Sixteen);
         }
         return null;
     })
 
     helpers._registerFactory("tile", function(name: string) {
         switch(helpers.stringTrim(name)) {
-            case "transparency16":return transparency16;
+            case "transparency16":return myTiles.transparency16;
             case "Water":
-            case "tile1":return tile1;
+            case "tile1":return myTiles.tile1;
             case "Water0":
-            case "tile2":return tile2;
+            case "tile2":return myTiles.tile2;
             case "Water1":
-            case "tile3":return tile3;
+            case "tile3":return myTiles.tile3;
             case "Weed":
-            case "tile4":return tile4;
+            case "tile4":return myTiles.tile4;
             case "myTile":
-            case "tile5":return tile5;
+            case "tile5":return myTiles.tile5;
             case "myTile0":
-            case "tile6":return tile6;
+            case "tile6":return myTiles.tile6;
             case "doorClosedEast":
-            case "tile7":return tile7;
+            case "tile7":return myTiles.tile7;
             case "myTile1":
-            case "tile8":return tile8;
+            case "tile8":return myTiles.tile8;
             case "dedTree":
-            case "tile10":return tile10;
+            case "tile10":return myTiles.tile10;
             case "daTree":
-            case "tile9":return tile9;
+            case "tile9":return myTiles.tile9;
             case "daTree0":
-            case "tile11":return tile11;
+            case "tile11":return myTiles.tile11;
         }
         return null;
     })
