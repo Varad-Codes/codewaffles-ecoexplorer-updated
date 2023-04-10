@@ -159,8 +159,10 @@ function levelSwitch () {
         tiles.setCurrentTilemap(lvl1)
         currentLevel += 1
     } else if (currentLevel == 2) {
-        tiles.setCurrentTilemap(lvl2)
-        currentLevel += 1
+        if (info.score() >= 5) {
+            tiles.setCurrentTilemap(lvl2)
+            currentLevel += 1
+        }
     }
 }
 
